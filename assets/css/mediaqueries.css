@@ -1,0 +1,35 @@
+@media (max-width: 632px){
+    /* CONTAINER-ML */
+    .container-ml{
+        flex-direction: column;
+    }
+    /* IMG-DESKTOP */
+    img{
+        display: none;
+    }
+    /* IMG-MOBILE */
+    .mobile{
+        background-image: url(/product-preview-card-component-main/images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-width: 343px;
+    }
+    /* CONTENT-ML */
+    .content-ml{
+        max-width: 343px;
+        width: 100%;
+        padding: 22px 23px 24px 25px;
+    }
+    /* BTN-CART */
+    .btn-cart{
+        max-width: 100%;
+    }
+    .btn-cart img{
+        width: 20px;
+        display: block;   
+    }
+}
